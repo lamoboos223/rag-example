@@ -1,8 +1,7 @@
 import argparse
 from langchain_community.vectorstores import Chroma
 from langchain.prompts import ChatPromptTemplate
-from langchain_community.llms.ollama import Ollama
-
+from langchain_community.llms.ollama import Ollama  # Uses localhost:11434 by default
 from get_embedding_function import get_embedding_function
 
 CHROMA_PATH = "chroma"

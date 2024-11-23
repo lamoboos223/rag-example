@@ -1,5 +1,9 @@
 # RAG with LangChain and Chroma
 
+## Prerequisites
+
+- Install Ollama
+
 ## USAGE
 
 ```bash
